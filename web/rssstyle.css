@@ -1,0 +1,126 @@
+/* 
+    Document   : rssstyle
+    Created on : Sep 23, 2012, 6:17:30 PM
+    Author     : vravuri
+    Description:
+        Stylesheet for the feed reader.
+*/
+
+
+body {
+    font-family: arial;
+    background-image:url('polaroid.png');
+}
+
+table
+{
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #007AA8;
+    width: 35%;
+    margin-top: 2px;
+    font-size: 18px;
+    font-family: Arial,Helvetica,sans-serif;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    border-top-width: 3px;
+    border-right-color: #000000;
+    border-left-color: #000000;
+    border-bottom-color: #000000;
+    border-top-color: #000000;
+}
+
+div {
+    background-color: #bed7ff;
+    font-family: Arial,Helvetica,sans-serif;
+    color: black;
+    font-variant: normal;
+    border-radius: 10px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 3px;
+    border-left-width: 3px;
+    border-bottom-width: 3px;
+    border-top-width: 3px;
+    border-right-color: #007aa8;
+    border-left-color: #007aa8;
+    border-bottom-color: #007aa8;
+    border-top-color: #007aa8;
+    font-size: 16px;
+    width: 800px;
+}
+
+ul {
+    list-style-type:circle;
+    font-family: Geneva,Arial,Helvetica,sans-serif;
+    word-spacing: 2px;
+    letter-spacing: 1px;
+    line-height: 2pc;
+    text-align: left;
+}
+
+a:link {
+    color:#000000;
+    text-decoration: none;
+}
+
+a:visited {
+    color:#1c1717;
+    text-decoration: none;
+}
+
+a:hover {
+    color:#007AA8;
+    text-decoration: underline;
+}
+
+a:active {
+    color:#007AA8;
+    text-decoration: overline;
+}
+
+h2 { 
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #000000;
+}
+
+h3 { 
+    border-bottom-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-color: #007AA8;
+}
+
+input[type="submit"] {
+
+    font-family: Arial, Helvetica, sans-serif; 
+    font-size: 18px; 
+    color: #000000; 
+    border-style: solid; 
+    border-radius: 5px;
+    border-right-style: solid;
+    border-left-style: solid;
+    border-bottom-style: solid;
+    border-top-style: solid;
+    border-right-width: 1px;
+    border-left-width: 1px;
+    border-bottom-width: 1px;
+    border-top-width: 1px;
+    border-right-color: #000000;
+    border-left-color: #000000;
+    border-bottom-color: #000000;
+    border-top-color: #000000;
+}
+
+select {
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 2px;
+    font-size: 16px;
+}
